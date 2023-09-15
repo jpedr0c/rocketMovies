@@ -1,6 +1,5 @@
 import { Container, Tag } from "./styled";
 
-
 export function Tags({ titles }){
   return(
     <Container>

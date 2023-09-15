@@ -5,11 +5,10 @@ export const Container = styled.div`
   align-items: center;
   flex-wrap: wrap;
   gap: .8rem;
-  margin: 4rem 0;
 `;
 
 export const Tag = styled.div`
-  background-color: ${({ theme }) => theme.COLORS.BACKGROUND_600};
+  background-color: ${({ theme }) => theme.COLORS.BACKGROUND_500};
   color: ${({ theme }) => theme.COLORS.WHITE_300};
   padding: .8rem 1.6rem;
   border-radius: .8rem;

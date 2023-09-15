@@ -1,12 +1,14 @@
 import { Container } from "./styles";
 import { BsStar, BsStarFill, BsStarHalf } from 'react-icons/bs';
 
-export function Stars({ grade }) {
+export function Stars({ grade, inPreview = false }) {
   const filledStars = Math.floor(grade);
   const hasHalfStar = grade % 1 >= 0.5;
 
   return (
-    <Container>
+    <Container
+      $inpreview={inPreview}
+    >
       {[...Array(5)].map((_, index) => {
         if (index < filledStars)
           return <BsStarFill key={index} />;

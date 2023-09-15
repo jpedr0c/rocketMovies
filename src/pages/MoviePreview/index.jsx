@@ -14,7 +14,7 @@ export function MoviePreview() {
         <ButtonText title="Voltar" icon={FiArrowLeft}/>
         <Title>
           <h2>Interestellar</h2>
-          <Stars grade="3.5"/>
+          <Stars grade="3.5" $inpreview/>
         </Title>
         <Info>
           <img src="https://github.com/jpedr0c.png" alt="Foto de usuário que criou ou editou o filme" />

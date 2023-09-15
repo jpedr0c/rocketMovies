@@ -19,6 +19,7 @@ export const Content = styled.div`
     font-size: 1.6rem;
     font-weight: 400;
     margin-right: 1.6rem;
+    margin-top: 4rem;
   }
 
   &::-webkit-scrollbar {
@@ -50,6 +51,7 @@ export const Info = styled.div`
   align-items: center;
   justify-content: center;
   gap: .8rem;
+  margin-bottom: 4rem;
 
   > img {
     width: 1.6rem;

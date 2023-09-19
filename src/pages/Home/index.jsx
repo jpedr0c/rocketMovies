@@ -1,4 +1,5 @@
 import { Container, Content } from "./styles";
+import { Link } from 'react-router-dom';
 import { Header } from '../../components/Header';
 import { Button } from '../../components/Button';
 import { Movie } from '../../components/Movie';
@@ -10,7 +11,9 @@ export function Home() {
       <Header/>
       <div className="title">
         <h2>Meus filmes</h2>
-        <Button title="Adicionar filtro" icon={FiPlus}/>
+        <Link to='/add'>
+          <Button title="Adicionar filtro" icon={FiPlus}/>
+        </Link>
       </div>
       <Content>
         <Movie title="Interestellar"/>

@@ -1,10 +1,10 @@
 import { FiArrowLeft } from 'react-icons/fi';
+import { BsClock } from 'react-icons/bs';
+import { Container, Content, Title, Info} from './styles';
 import { Header } from '../../components/Header';
 import { ButtonText } from '../../components/ButtonText';
 import { Tags } from '../../components/Tags';
 import { Stars } from '../../components/Stars';
-import { BsClock } from 'react-icons/bs';
-import { Container, Content, Title, Info} from './styles';
 
 export function MoviePreview() {
   return(

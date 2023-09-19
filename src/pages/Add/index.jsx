@@ -4,7 +4,7 @@ import { Button } from '../../components/Button';
 import { ButtonText } from '../../components/ButtonText';
 import { MovieTag } from '../../components/MovieTag';
 import { Input } from '../../components/Input';
-import { FiArrowLeft, FiPlus } from "react-icons/fi";
+import { FiArrowLeft } from "react-icons/fi";
 
 export function Add() {
   return(
